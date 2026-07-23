@@ -1,7 +1,28 @@
 aid: approxima
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/approxima.png
 name: Approxima
-description: Approxima is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Approxima is a Y Combinator (Winter 2026) startup building AI agents that test
+  every pull request. Approxima plugs into your CI/CD pipeline and runs autonomous
+  agents on each PR: the agents build your application in an isolated sandbox,
+  exercise it in a real browser, and report exactly what is broken, with
+  screenshots. The company positions itself as a trust layer for AI-assisted
+  software development, letting engineering teams catch regressions and validate
+  fixes end to end before code merges to production. As of this profile Approxima
+  operates a marketing site and private login at approxima.ai and does not yet
+  publish a public API, developer documentation, or an OpenAPI definition; this
+  repo captures its identity and domain-security posture pending a public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/approxima/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,33 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Software Development
+- AI Agents
+- Testing
+- QA
+- CI/CD
+- Pull Request
+- Developer Tools
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/approxima-domain-security.yml
+- type: Website
+  url: https://approxima.ai
+- type: Login
+  url: https://approxima.ai/login
+- type: TermsOfService
+  url: https://approxima.ai/terms
+- type: PrivacyPolicy
+  url: https://approxima.ai/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
