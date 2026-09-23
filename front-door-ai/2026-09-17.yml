@@ -1,0 +1,27 @@
+# Front Door AI Index — approxima — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: approxima
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: approxima.ai
+  final_host: approxima.ai
+  ownership: own
+  owner: approxima
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 75.95
+  words: 79
+  tiers:
+    agentic: 3
+    core: 3
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI agent: 3
+    AI: 3
+    agent: 3
